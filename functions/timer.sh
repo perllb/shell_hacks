@@ -14,4 +14,6 @@ timeCMD() {
 # Run command with timing:
 timeCMD "sleep 4200"
 
+timeCMD "sleep 3"
 
+timeCMD "sleep 62"
