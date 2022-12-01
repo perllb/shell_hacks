@@ -1,0 +1,7 @@
+timeCMD() {
+    start=$(date +%s)
+    $1
+    end=$(date +%s)
+    t=$(($end - $start))
+    printf 'Time taken: %d minutes, %d seconds\n' "$(( t/60 ))" "$(( t - 60*(t/60) ))"
+}
